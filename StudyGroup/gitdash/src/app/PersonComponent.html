@@ -1,0 +1,21 @@
+<div class="container">
+    <h2>Repo Info</h2>
+    <table class="table table-hover">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>stargazers</th>
+            <th>watchers</th>
+            <th>Forks</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let p of repo | myfilter : fil; let i = index">
+            <td><a (click)="goHomePage(p.html_url)">{{p.name}}</a></td>
+            <td>{{p.stargazers_count}}</td>
+            <td>{{p.watchers_count}}</td>
+            <td>{{p.forks}}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>

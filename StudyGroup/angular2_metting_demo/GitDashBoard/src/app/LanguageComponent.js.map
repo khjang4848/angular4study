@@ -1,0 +1,1 @@
+{"version":3,"file":"LanguageComponent.js","sourceRoot":"","sources":["LanguageComponent.ts"],"names":[],"mappings":";;;;;;;;AAAA;;GAEG;AACH;;GAEG;AACH,sCAAwC;AASxC,IAAa,iBAAiB;IAA9B;IAEA,CAAC;IAAD,wBAAC;AAAD,CAAC,AAFD,IAEC;AAFY,iBAAiB;IAP7B,gBAAS,CAAC;QACP,QAAQ,EAAG,MAAM,CAAC,EAAE;QACpB,QAAQ,EAAE,mBAAmB;QAC7B,QAAQ,EAAG,6BAAc;KAC5B,CAAC;GAGW,iBAAiB,CAE7B;AAFY,8CAAiB"}
