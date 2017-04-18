@@ -13,9 +13,16 @@ import { IntroComponent} from './intro.component';
 
 import { OopComponent } from './oop-service/oop.component';
 
+import { PromiseComponent } from './promise/promise.component';
+import { ListComponent } from './promise/list.component';
+
+import { CarComponent } from './shared-service/car.component';
+import { TaxiComponent } from './shared-service/taxi.component';
+import { ParentComponent } from './shared-service/parent.component';
 
 @NgModule({
-    declarations : [AppComponent, IntroComponent, OopComponent],
+    declarations : [AppComponent, IntroComponent, OopComponent,
+        PromiseComponent, ListComponent, CarComponent, TaxiComponent, ParentComponent],
     imports : [BrowserModule, CommonModule, FormsModule, routing],
     providers : [appRoutingProviders],
     bootstrap: [AppComponent]
