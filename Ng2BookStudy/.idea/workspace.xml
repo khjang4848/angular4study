@@ -2,33 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="713cc3e5-3806-45e6-a8fc-eb5822a5de10" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LifeCycle/src/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LifeCycle/.angular-cli.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LifeCycle/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LifeCycle/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LifeCycle/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LifeCycle/karma.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LifeCycle/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LifeCycle/protractor.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LifeCycle/src/app/app.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LifeCycle/src/app/app.module.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LifeCycle/src/app/app.routing.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LifeCycle/src/app/index.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LifeCycle/src/app/intro.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LifeCycle/src/environments/environment.prod.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LifeCycle/src/environments/environment.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LifeCycle/src/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LifeCycle/src/main.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LifeCycle/src/polyfills.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LifeCycle/src/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LifeCycle/src/test.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LifeCycle/src/tsconfig.app.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LifeCycle/src/tsconfig.spec.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LifeCycle/src/typings.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LifeCycle/tsconfig.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LifeCycle/tslint.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LifeCycle/src/app/cmp-lifecycle/child-cmp.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LifeCycle/src/app/cmp-lifecycle/cmp-lifecycle.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LifeCycle/src/app/cmp-lifecycle/my-cmp.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LifeCycle/src/app/cmp-lifecycle/window.directive.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LifeCycle/src/app/app.module.ts" afterPath="$PROJECT_DIR$/LifeCycle/src/app/app.module.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LifeCycle/src/app/app.routing.ts" afterPath="$PROJECT_DIR$/LifeCycle/src/app/app.routing.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,33 +23,9 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.41950536">
+    <splitter split-orientation="horizontal" split-proportion="0.47263682">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="wiki.service.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Http/src/app/wiki/wiki.service.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-                  <folding>
-                    <element signature="e#41#82#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="wiki.component.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Http/src/app/wiki/wiki.component.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#41#81#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Http/src/app/app.module.ts">
               <provider selected="true" editor-type-id="text-editor">
@@ -76,18 +33,6 @@
                   <caret line="28" column="68" lean-forward="false" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
                   <folding>
                     <element signature="e#41#99#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="person-list.component.promise.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Http/src/app/person/person-list.component.promise.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="39" />
-                  <folding>
-                    <element signature="e#41#91#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -115,18 +60,64 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="true">
+          <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/LifeCycle/src/app/app.component.ts">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="315">
                   <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
                   <folding>
-                    <marker date="1489897806000" expanded="true" signature="119:581" ph="..." />
-                    <marker date="1489897806000" expanded="true" signature="144:567" ph="..." />
-                    <marker date="1489897806000" expanded="true" signature="171:208" ph="..." />
-                    <marker date="1489897806000" expanded="true" signature="239:556" ph="..." />
-                    <marker date="1489897806000" expanded="true" signature="606:651" ph="..." />
+                    <marker date="1496226289568" expanded="true" signature="119:581" ph="..." />
+                    <marker date="1496226289568" expanded="true" signature="144:567" ph="..." />
+                    <marker date="1496226289568" expanded="true" signature="171:208" ph="..." />
+                    <marker date="1496226289568" expanded="true" signature="239:556" ph="..." />
+                    <marker date="1496226289568" expanded="true" signature="606:651" ph="..." />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="window.directive.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/LifeCycle/src/app/cmp-lifecycle/window.directive.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="child-cmp.component.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/LifeCycle/src/app/cmp-lifecycle/child-cmp.component.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="210">
+                  <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+                  <folding>
+                    <element signature="e#42#239#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="cmp-lifecycle.ts" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/LifeCycle/src/app/cmp-lifecycle/cmp-lifecycle.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="225">
+                  <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+                  <folding>
+                    <marker date="1496229179705" expanded="true" signature="356:430" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="my-cmp.component.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/LifeCycle/src/app/cmp-lifecycle/my-cmp.component.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -134,8 +125,8 @@
           <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/LifeCycle/src/app/app.module.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+                <state relative-caret-position="360">
+                  <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                     <element signature="e#43#101#0" expanded="true" />
@@ -148,20 +139,10 @@
           <file leaf-file-name="app.routing.ts" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/LifeCycle/src/app/app.routing.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="4" column="55" lean-forward="false" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="wiki.service.promise.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Http/src/app/wiki/wiki.service.promise.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="19" column="0" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="19" selection-end-column="0" />
+                <state relative-caret-position="195">
+                  <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
                   <folding>
-                    <element signature="e#41#82#0" expanded="true" />
+                    <element signature="e#43#95#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -206,7 +187,7 @@
           <file leaf-file-name="polyfills.ts" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/LifeCycle/src/polyfills.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
+                <state relative-caret-position="30">
                   <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
@@ -219,7 +200,7 @@
           <file leaf-file-name="typings.d.ts" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/LifeCycle/src/typings.d.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
+                <state relative-caret-position="45">
                   <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
@@ -231,8 +212,8 @@
           <file leaf-file-name="tslint.json" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/LifeCycle/tslint.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="33" column="27" lean-forward="true" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+                <state relative-caret-position="450">
+                  <caret line="30" column="28" lean-forward="false" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
@@ -261,10 +242,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DI/src/app/class-provider/class-provider.component.ts" />
-        <option value="$PROJECT_DIR$/DI/src/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/DI/src/app/opaque-token/opaque-token.provider.ts" />
-        <option value="$PROJECT_DIR$/DI/src/app/opaque-token/opaque-token.component.ts" />
         <option value="$PROJECT_DIR$/DI/src/app/factory/animal.ts" />
         <option value="$PROJECT_DIR$/DI/src/app/factory/animal-factory.ts" />
         <option value="$PROJECT_DIR$/DI/src/app/factory/factory.component.ts" />
@@ -310,8 +287,12 @@
         <option value="$PROJECT_DIR$/Http/src/app/person/person-list.component.promise.ts" />
         <option value="$PROJECT_DIR$/Http/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/Http/src/app/app.routing.ts" />
-        <option value="$PROJECT_DIR$/LifeCycle/src/app/app.routing.ts" />
+        <option value="$PROJECT_DIR$/LifeCycle/src/app/cmp-lifecycle/my-cmp.component.ts" />
+        <option value="$PROJECT_DIR$/LifeCycle/src/app/cmp-lifecycle/window.directive.ts" />
+        <option value="$PROJECT_DIR$/LifeCycle/src/app/cmp-lifecycle/cmp-lifecycle.ts" />
         <option value="$PROJECT_DIR$/LifeCycle/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/LifeCycle/src/app/app.routing.ts" />
+        <option value="$PROJECT_DIR$/LifeCycle/src/app/cmp-lifecycle/child-cmp.component.ts" />
       </list>
     </option>
   </component>
@@ -322,15 +303,13 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/DI/node_modules" />
-    <handled-path value="$PROJECT_DIR$/Form/node_modules" />
     <handled-path value="$PROJECT_DIR$/LifeCycle/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="2576" />
-    <option name="height" value="1416" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -348,8 +327,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -416,6 +395,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ng2BookStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ng2BookStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LifeCycle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmp-lifecycle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -432,6 +437,7 @@
     <property name="add_unversioned_files" value="true" />
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.selected.package.jscs" value="" />
+    <property name="tslint.code.style.apply.dismiss" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -573,23 +579,25 @@
       <workItem from="1494494393103" duration="4522000" />
       <workItem from="1494747805423" duration="785000" />
       <workItem from="1496114340124" duration="264000" />
+      <workItem from="1496226314767" duration="430000" />
+      <workItem from="1496226758677" duration="3742000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122015000" />
+    <option name="totallyTimeSpent" value="126187000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16289063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32415903" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32383966" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3998435" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -642,34 +650,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Directives/src/app/binding-to-directive/binding-to-directive.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Directives/src/app/custom-attr-directive/custom-attr-directive.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Directives/src/app/custom-attr-directive/custom-attr.directive.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Directives/src/app/custom-structural-directive/myif.directive.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Directives/src/app/custom-structural-directive/custom-structural-directive.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -810,13 +790,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Form/node_modules/rxjs/Observable.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="57" column="4" lean-forward="false" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Form/node_modules/rxjs/Observable.d.ts" />
     <entry file="file://$PROJECT_DIR$/Http/src/app/wiki/wiki.component.promise.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -864,7 +838,7 @@
         <state relative-caret-position="225">
           <caret line="19" column="0" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#41#82#0" expanded="true" />
+            <element signature="e#41#82#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -874,7 +848,7 @@
         <state relative-caret-position="285">
           <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding>
-            <element signature="e#41#82#0" expanded="true" />
+            <element signature="e#41#82#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -967,26 +941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LifeCycle/src/app/app.routing.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="4" column="55" lean-forward="false" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LifeCycle/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#43#101#0" expanded="true" />
-            <element signature="e#257#318#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LifeCycle/.angular-cli.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -997,7 +951,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LifeCycle/src/polyfills.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="30">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -1008,7 +962,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LifeCycle/src/typings.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="45">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -1016,11 +970,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LifeCycle/tslint.json">
+    <entry file="file://$PROJECT_DIR$/LifeCycle/src/app/cmp-lifecycle/window.directive.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="33" column="27" lean-forward="true" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="75">
+          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1029,12 +985,70 @@
         <state relative-caret-position="315">
           <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
           <folding>
-            <marker date="1489897806000" expanded="true" signature="119:581" ph="..." />
-            <marker date="1489897806000" expanded="true" signature="144:567" ph="..." />
-            <marker date="1489897806000" expanded="true" signature="171:208" ph="..." />
-            <marker date="1489897806000" expanded="true" signature="239:556" ph="..." />
-            <marker date="1489897806000" expanded="true" signature="606:651" ph="..." />
+            <marker date="1496226289568" expanded="true" signature="119:581" ph="..." />
+            <marker date="1496226289568" expanded="true" signature="144:567" ph="..." />
+            <marker date="1496226289568" expanded="true" signature="171:208" ph="..." />
+            <marker date="1496226289568" expanded="true" signature="239:556" ph="..." />
+            <marker date="1496226289568" expanded="true" signature="606:651" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LifeCycle/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#43#101#0" expanded="true" />
+            <element signature="e#257#318#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LifeCycle/src/app/app.routing.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#43#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LifeCycle/src/app/cmp-lifecycle/my-cmp.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LifeCycle/src/app/cmp-lifecycle/child-cmp.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+          <folding>
+            <element signature="e#42#239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LifeCycle/src/app/cmp-lifecycle/cmp-lifecycle.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <marker date="1496229179705" expanded="true" signature="356:430" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LifeCycle/tslint.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="28" lean-forward="false" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
